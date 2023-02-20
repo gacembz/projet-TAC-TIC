@@ -1,10 +1,14 @@
 
+
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { login } from "./redux/Actions"; 
+ import { register } from "./redux/Actions"; 
+
 import "./Auth.css";
-function Login() {
+
+function Register() {
+  const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const dispatch = useDispatch();
@@ -19,7 +23,9 @@ function Login() {
                 <div className="col-lg-6">
                   <div className="p-5">
                     <div className="mb-5">
-                      <h3 className="h4 font-weight-bold text-theme">Login</h3>
+                      <h3 className="h4 font-weight-bold text-theme">
+                        register
+                      </h3>
                     </div>
                     <h6 className="h5 mb-0">Welcome back!</h6>
                     <p className="text-muted mt-2 mb-5">
@@ -29,9 +35,18 @@ function Login() {
                     <form
                       onSubmit={(e) => {
                         e.preventDefault();
-                        dispatch(login({ email, password }, navigate));
+                        dispatch(register({ name, email, password }, navigate));
                       }}
                     >
+                      <div className="form-group">
+                        <label htmlFor="exampleInputEmail1">name</label>
+                        <input
+                          type="text"
+                          className="form-control"
+                          id="exampleInputEmail1"
+                          onChange={(e) => setName(e.target.value)}
+                        />
+                      </div>
                       <div className="form-group">
                         <label htmlFor="exampleInputEmail1">
                           Email address
@@ -85,7 +100,7 @@ function Login() {
           </div>
           {/* end card */}
           <p className="text-muted text-center mt-3 mb-0">
-            Don't have an account? <a className="text-primary ml-1" href="http://localhost:3000/register">register</a>
+            Don't have an account? <a className="text-primary ml-1" href="">register</a>
           </p>
           {/* end row */}
         </div>
@@ -96,4 +111,9 @@ function Login() {
   );
 }
 
-export default Login;
+export default Register;
+
+  
+  
+
+

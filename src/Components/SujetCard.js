@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { deleteSujet } from './redux/Actions';
+import { deleteSujet } from './redux/Actionss/Actions';
 
 function SujetCard({el}) {
   const disptach=useDispatch()

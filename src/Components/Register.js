@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
- import { register } from "./redux/Actions"; 
+ import { register } from "./redux/Actionss/Actions"; 
 
 import "./Auth.css";
 

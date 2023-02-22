@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Dashboard.css';
 
 function Dashboard() {
@@ -67,7 +68,7 @@ function Dashboard() {
                             <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                                 aria-expanded="true" aria-controls="collapseTwo">
                                 <i className="fas fa-fw fa-cog"></i>
-                                <span>Components</span>
+                                <Link to={'/addsujet'}><span>Ajouter un sujet</span></Link>
                             </a>
                             <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                                 <div className="bg-white py-2 collapse-inner rounded">
@@ -83,7 +84,7 @@ function Dashboard() {
                             <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                                 aria-expanded="true" aria-controls="collapseUtilities">
                                 <i className="fas fa-fw fa-wrench"></i>
-                                <span>Utilities</span>
+                                <Link to={'/edit/:id'}><span>Edit</span></Link>
                             </a>
                             <div id="collapseUtilities" className="collapse" aria-labelledby="headingUtilities"
                                 data-parent="#accordionSidebar">

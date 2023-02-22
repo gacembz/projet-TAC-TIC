@@ -33,7 +33,7 @@ function Footer () {
         </section>
         <section className="footer-info-right">
           <section className="footer-info__number">
-            +2698645464421
+           +2698645464421
           </section>
           <section className="footer-info__contact">
             My Story

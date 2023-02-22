@@ -1,7 +1,7 @@
 
 import { Routes,Route } from "react-router-dom";
 import Navigation from "./Components/Navigation";
-import Carousell from "./Components/Accuiel"
+
 import Footer from "./Components/Footer";
 import SujetListe from "./Components/SujetListe";
 import Login from "./Components/Login";

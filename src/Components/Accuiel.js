@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { theme } from "@chakra-ui/react";
 import { Chip, Icon } from "@mui/material";
 import Person3Icon from '@mui/icons-material/Person3';
+
 function Accuiel() {
   return (
     <div className="ACC">
@@ -51,6 +52,7 @@ function Accuiel() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel> 
+   
     <div className="div1">
     <div className="div2">
     <h3 className="H3">introduction:</h3>

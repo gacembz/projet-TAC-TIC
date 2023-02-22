@@ -159,10 +159,10 @@ const Login = () => {
                          
                         />
                       </div>
-                      <button onClick={handleLogin} className="btn btn-theme">
+                      <Link to={'/dashboard'}><button  className="btn btn-theme">
                         Login
-                      </button>
-                     <Link to={'/dashboard'}><button> dashboard</button></Link>
+                      </button></Link>
+             
                       <a
                         href="#l"
                         className="forgot-link float-right text-primary"
@@ -193,7 +193,8 @@ const Login = () => {
           </div>
           {/* end card */}
           <p className="text-muted text-center mt-3 mb-0">
-            Don't have an account? <a className="text-primary ml-1" href='/'>register</a>
+            Don't have an account? 
+            <Link to={'/register'}><a className="text-primary ml-1" >register</a></Link>
           </p>
           {/* end row */}
         </div>

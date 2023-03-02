@@ -12,8 +12,8 @@ import Deletesujet from "./Components/Deletesujet";
 import Register from "./Components/Register";
 import "./App"
 import UserProfile from "./Components/UserInterface/UserProfile"
-import { Home } from "@mui/icons-material";
-import Dashboard from "./Components/Dashboard"
+import { Dashboard, Home } from "@mui/icons-material";
+import Test from "./Components/dashboard/Test"
 
 function App() {
   
@@ -36,7 +36,7 @@ function App() {
       <Route path="/addsujet" element={<Addsujet></Addsujet>}></Route>
       <Route path="/edit/:id" element={<Edit></Edit>}></Route>
       <Route path= "/sujetliste" element={<SujetListe></SujetListe>}></Route>
-   <Route path= "/dashboard" element={<Dashboard></Dashboard>}></Route>
+<Route path= "/test" element={<Test></Test>}></Route>
         
       </Routes>
    

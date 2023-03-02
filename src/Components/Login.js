@@ -57,7 +57,7 @@ const Login = () => {
                          
                         />
                       </div>
-                      <Link to={'/dashboard'}><button  className="btn btn-theme">
+                      <Link to={'/test'}><button  className="btn btn-theme">
                         Login
                       </button></Link>
              

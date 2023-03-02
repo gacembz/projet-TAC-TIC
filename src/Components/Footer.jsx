@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './Footer.css';
 
@@ -23,7 +24,7 @@ function Footer () {
         </section>
         <section className="footer-info-center">
           <section className="footer-info__email">
-            sujet.info@gmail.com
+           <a href='/'> sujet.info@gmail.com</a>
           </section>
           <section className="footer-info__terms">
             Terms and Conditions
@@ -33,7 +34,7 @@ function Footer () {
         </section>
         <section className="footer-info-right">
           <section className="footer-info__number">
-           +2698645464421
+           <a href='/'>+2698645464421</a>
           </section>
           <section className="footer-info__contact">
             My Story

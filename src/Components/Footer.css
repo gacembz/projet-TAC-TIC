@@ -5,7 +5,7 @@
 }
 .fot{
 
-    background-image: url("./bb.jpg");
+    background-image: url("");
    
     background-size: 100%;
 }
@@ -15,9 +15,10 @@
         flex-direction: column;
         margin-bottom: 20px;
         font-weight: bold;
-        background-image: url('./bb.jpg');
+        background-image: url('');
         margin-top: 5%;
         height: 400PX;
+        background-color: rgba(148, 180, 240, 0.905);
     }
 
     .footer-social-media {
@@ -57,22 +58,22 @@
 
     .footer-info__name{font-family: monospace;
         font-size: xx-large;
-        color: rgb(86, 10, 199);}
+        color: rgb(56, 193, 232);}
     .footer-info__returns {
         font-family: monospace;
             font-size: x-large;
-            color: rgb(86, 10, 199);
+            color: rgb(56, 193, 232);
         text-align: start;
     }
 
-    .footer-info__email{color: rgb(86, 10, 199) ;
+    .footer-info__email{color:rgb(56, 193, 232) ;
     font-family: monospace;
 font-size: xx-large;}
     .footer-info__terms {
         text-align: center;
         font-family: monospace;
             font-size: x-large;
-            color: rgb(86, 10, 199);
+            color: rgb(56, 193, 232);
             text-align: start;
         
     }
@@ -82,7 +83,7 @@ font-size: xx-large;}
         text-align: end;
         font-family: monospace;
             font-size: x-large;
-             color: rgb(86, 10, 199);
+             color: rgb(56, 193, 232);
     }
 
     .footer-date {

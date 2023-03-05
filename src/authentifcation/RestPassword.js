@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import imageLogo from "../authImage/02_logo.png";
-import imageAuthor from "../authImage/me.jpg";
 
+import clavie from "../images/clavie.png"
 const RestPassword = ({setEmail,submitRestPassword}) => {
 
   return (
@@ -35,9 +35,9 @@ const RestPassword = ({setEmail,submitRestPassword}) => {
                   objectives as a front-end developer using React Js
                 </p>
                 <div className="author-info">
-                  <img src={imageAuthor} alt="Me" />
+                  <img src={clavie} alt="Me" />
                   <div>
-                    <h5 className="name">Nour Ramadan</h5>
+                    <h5 className="name"></h5>
                     <span className="job">Front End</span>
                   </div>
                 </div>

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import imageLogo from "../authImage/02_logo.png";
-import imageAuthor from "../authImage/me.jpg";
+import clavie from "../images/clavie.png"
 
 const FinishAnswerPassword = ({ user }) => {
   const navigate = useNavigate();
@@ -88,9 +88,9 @@ const FinishAnswerPassword = ({ user }) => {
                   objectives as a front-end developer using React Js
                 </p>
                 <div className="author-info">
-                  <img src={imageAuthor} alt="Me" />
+                  <img src={clavie} alt="Me" />
                   <div>
-                    <h5 className="name">Nour Ramadan</h5>
+                    <h5 className="name"></h5>
                     <span className="job">Front End</span>
                   </div>
                 </div>

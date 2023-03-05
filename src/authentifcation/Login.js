@@ -132,9 +132,9 @@ const Login = () => {
                   </div>
                 </div>
                 <div className="col-md-12">
-                  <button className="btn-1 submit" type="submit">
+                  <Link to={'/test'}><button className="btn-1 submit" type="submit">
                     Login
-                  </button>
+                  </button></Link>
                   <p className="forget text-center">
                     <Link to="/restpassword">Forget Password?</Link>
                   </p>

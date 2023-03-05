@@ -16,13 +16,7 @@ function Navigation() {
          </Navbar.Brand>
          <Navbar.Toggle />
          <Navbar.Collapse className="justify-content-end">
-           <Navbar.Text>
-           <div className='bo'>
-           <p>test</p>
-            <Link to={'/login'}><button className='loginBtn'>Login</button></Link>
            
-            </div>
-           </Navbar.Text>
         </Navbar.Collapse>
         <Link to={'/login'}><button className='loginBtn'>Login</button></Link>
        </Container>

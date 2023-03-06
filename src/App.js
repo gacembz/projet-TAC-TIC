@@ -62,10 +62,10 @@ function App() {
       <Route path="/sujets" element={<SujetListe></SujetListe>}></Route>
       
       <Route path= '/accuiel' element={<Accuiel></Accuiel>}></Route>
-      <Route path="/addsujet" element={<Addsujet></Addsujet>}></Route>
+      {/* <Route path="/addsujet" element={<Addsujet></Addsujet>}></Route> */}
       <Route path="/edit/:id" element={<Edit></Edit>}></Route>
       <Route path= "/sujetliste" element={<SujetListe></SujetListe>}></Route>
-<Route path= "/test" element={<Test></Test>}></Route>
+      <Route path= "/test" element={<Test></Test>}></Route>
   
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />

@@ -1,8 +1,8 @@
 import React from 'react'
-
+import './Test.css'
 function Test() {
   return (
-    <div className="d-flex flex-column flex-lg-row h-lg-full bg-surface-secondary">
+    <div className="d-flex flex-column h-lg-full bg-surface-secondary">
    
     <nav className="navbar show navbar-vertical h-lg-screen navbar-expand-lg px-0 py-3 navbar-light bg-white border-bottom border-bottom-lg-0 border-end-lg" id="navbarVertical">
         <div className="container-fluid">
@@ -12,7 +12,7 @@ function Test() {
             </button>
             
             <a className="navbar-brand py-lg-2 mb-lg-5 px-lg-6 me-0" href="#">
-                <h3 className="text-success"><img src="https://bytewebster.com/img/logo.png" width="40"></img><span className="text-info">BYTE</span>WEBSTER</h3> 
+                <h3 className="text-success"><img src="https://bytewebster.com/img/logo.png" width="40" /><span className="text-info">BYTE</span>WEBSTER</h3> 
             </a>
            
             <div className="navbar-user d-lg-none">
@@ -21,7 +21,8 @@ function Test() {
                   
                     <a href="#" id="sidebarAvatar" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <div className="avatar-parent-child">
-                            <img alt="Image Placeholder" src="https://images.unsplash.com/photo-1548142813-c348350df52b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80" className="avatar avatar- rounded-circle"></img>
+                            <img alt="Image Placeholder" src="https://images.unsplash.com/photo-1548142813-c348350df52b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80"
+                             className="avatar avatar- rounded-circle" />
                             <span className="avatar-child avatar-badge bg-success"></span>
                         </div>
                     </a>
@@ -89,7 +90,7 @@ function Test() {
                         <a href="#" className="nav-link d-flex align-items-center">
                             <div className="me-4">
                                 <div className="position-relative d-inline-block text-white">
-                                    <img alt="Image Placeholder" src="https://images.unsplash.com/photo-1548142813-c348350df52b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80" className="avatar rounded-circle"></img>
+                                    <img alt="Image Placeholder" src="https://images.unsplash.com/photo-1548142813-c348350df52b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80" className="avatar rounded-circle" />
                                     <span className="position-absolute bottom-2 end-2 transform translate-x-1/2 translate-y-1/2 border-2 border-solid border-current w-3 h-3 bg-success rounded-circle"></span>
                                 </div>
                             </div>
@@ -131,7 +132,7 @@ function Test() {
                         <a href="#" className="nav-link d-flex align-items-center">
                             <div className="me-4">
                                 <div className="position-relative d-inline-block text-white">
-                                    <img alt="..." src="https://images.unsplash.com/photo-1610899922902-c471ae684eff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80" className="avatar rounded-circle"></img>
+                                    <img alt="..." src="https://images.unsplash.com/photo-1610899922902-c471ae684eff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80" className="avatar rounded-circle" />
                                     <span className="position-absolute bottom-2 end-2 transform translate-x-1/2 translate-y-1/2 border-2 border-solid border-current w-3 h-3 bg-danger rounded-circle"></span>
                                 </div>
                             </div>
@@ -158,7 +159,7 @@ function Test() {
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#" onclick="return confirm('Are you sure you want to logout?')">
+                        <a className="nav-link" href="#" onClick="return confirm('Are you sure you want to logout?')">
                             <i className="bi bi-box-arrow-left"></i> Logout
                         </a>
                     </li>
@@ -169,14 +170,17 @@ function Test() {
     
     <div className="h-screen flex-grow-1 overflow-y-lg-auto">
         
-        <header className="bg-surface-primary border-bottom pt-6">
+        <header className="bg-surface-primary border-bottom pt-6"  >
+     <link rel="stylesheet" type="text/css" href="Test.css"></link>
+        
+
             <div className="container-fluid">
                 <div className="mb-npx">
                     <div className="row align-items-center">
                         <div className="col-sm-6 col-12 mb-4 mb-sm-0">
                             
                             <h1 className="h2 mb-0 ls-tight">
-                                <img src="https://bytewebster.com/img/logo.png" width="40"></img> ByteWebster Application</h1>
+                                <img src="https://bytewebster.com/img/logo.png" width="40" /> ByteWebster Application</h1>
                         </div>
                        
                         <div className="col-sm-6 col-12 text-sm-end">
@@ -333,7 +337,7 @@ function Test() {
                             <tbody>
                                 <tr>
                                     <td>
-                                        <img alt="..." src="https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80" className="avatar avatar-sm rounded-circle me-2"></img>
+                                        <img alt="..." src="https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80" className="avatar avatar-sm rounded-circle me-2" />
                                         <a className="text-heading font-semibold" href="#">
                                             Jason Martinez
                                         </a>
@@ -342,7 +346,7 @@ function Test() {
                                         Feb 15, 2023
                                     </td>
                                     <td>
-                                        <img alt="..." src="https://bytewebster.com/img/logo.png" className="avatar avatar-xs rounded-circle me-2"></img>
+                                        <img alt="..." src="https://bytewebster.com/img/logo.png" className="avatar avatar-xs rounded-circle me-2" />
                                         <a className="text-heading font-semibold" href="https://www.bytewebster.com/">
                                             Bytewebster
                                         </a>
@@ -357,14 +361,14 @@ function Test() {
                                     </td>
                                     <td className="text-end">
                                         <a href="#" className="btn btn-sm btn-neutral">View</a>
-                                        <button type="button" onclick="showSweetAlert()" className="btn btn-sm btn-square btn-neutral text-danger-hover">
+                                        <button type="button" onClick="showSweetAlert()" className="btn btn-sm btn-square btn-neutral text-danger-hover">
                                             <i className="bi bi-trash"></i>
                                         </button>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <img alt="..." src="https://images.unsplash.com/photo-1610271340738-726e199f0258?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80" className="avatar avatar-sm rounded-circle me-2"></img>
+                                        <img alt="..." src="https://images.unsplash.com/photo-1610271340738-726e199f0258?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80" className="avatar avatar-sm rounded-circle me-2" />
                                         <a className="text-heading font-semibold" href="#">
                                             Ashley Williams
                                         </a>
@@ -373,7 +377,7 @@ function Test() {
                                         Apr 15, 2023
                                     </td>
                                     <td>
-                                        <img alt="..." src="https://preview.webpixels.io/web/img/other/logos/logo-2.png" className="avatar avatar-xs rounded-circle me-2"></img>
+                                        <img alt="..." src="https://preview.webpixels.io/web/img/other/logos/logo-2.png" className="avatar avatar-xs rounded-circle me-2" />
                                         <a className="text-heading font-semibold" href="#">
                                             Netguru
                                         </a>
@@ -388,14 +392,14 @@ function Test() {
                                     </td>
                                     <td className="text-end">
                                         <a href="#" className="btn btn-sm btn-neutral">View</a>
-                                        <button type="button" onclick="showSweetAlert()" className="btn btn-sm btn-square btn-neutral text-danger-hover">
+                                        <button type="button" onClick="showSweetAlert()" className="btn btn-sm btn-square btn-neutral text-danger-hover">
                                             <i className="bi bi-trash"></i>
                                         </button>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <img alt="..." src="https://images.unsplash.com/photo-1610878722345-79c5eaf6a48c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80" className="avatar avatar-sm rounded-circle me-2"> </img>
+                                        <img alt="..." src="https://images.unsplash.com/photo-1610878722345-79c5eaf6a48c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80" className="avatar avatar-sm rounded-circle me-2" />
                                         <a className="text-heading font-semibold" href="#">
                                             Melissa Chen
                                         </a>
@@ -404,7 +408,7 @@ function Test() {
                                         Mar 20, 2023
                                     </td>
                                     <td>
-                                        <img alt="..." src="https://preview.webpixels.io/web/img/other/logos/logo-3.png" className="avatar avatar-xs rounded-circle me-2"></img>
+                                        <img alt="..." src="https://preview.webpixels.io/web/img/other/logos/logo-3.png" className="avatar avatar-xs rounded-circle me-2" />
                                         <a className="text-heading font-semibold" href="#">
                                             Figma
                                         </a>
@@ -419,14 +423,15 @@ function Test() {
                                     </td>
                                     <td className="text-end">
                                         <a href="#" className="btn btn-sm btn-neutral">View</a>
-                                        <button type="button" onclick="showSweetAlert()" className="btn btn-sm btn-square btn-neutral text-danger-hover">
+                                        <button type="button" onClick="showSweetAlert()" className="btn btn-sm btn-square btn-neutral text-danger-hover">
                                             <i className="bi bi-trash"></i>
                                         </button>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <img alt="..." src="https://images.unsplash.com/photo-1612422656768-d5e4ec31fac0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80" className="avatar avatar-sm rounded-circle me-2"></img>
+                                        <img alt="..." src="https://images.unsplash.com/photo-1612422656768-d5e4ec31fac0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80"
+                                         className="avatar avatar-sm rounded-circle me-2" />
                                         <a className="text-heading font-semibold" href="#">
                                             Emily Davis
                                         </a>
@@ -435,7 +440,7 @@ function Test() {
                                         Feb 15, 2023
                                     </td>
                                     <td>
-                                        <img alt="..." src="https://preview.webpixels.io/web/img/other/logos/logo-4.png" className="avatar avatar-xs rounded-circle me-2"></img>
+                                        <img alt="..." src="https://preview.webpixels.io/web/img/other/logos/logo-4.png" className="avatar avatar-xs rounded-circle me-2" />
                                         <a className="text-heading font-semibold" href="#">
                                             Mailchimp
                                         </a>
@@ -450,14 +455,14 @@ function Test() {
                                     </td>
                                     <td className="text-end">
                                         <a href="#" className="btn btn-sm btn-neutral">View</a>
-                                        <button type="button" onclick="showSweetAlert()" className="btn btn-sm btn-square btn-neutral text-danger-hover">
+                                        <button type="button" onClick="showSweetAlert()" className="btn btn-sm btn-square btn-neutral text-danger-hover">
                                             <i className="bi bi-trash"></i>
                                         </button>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <img alt="..." src="https://images.unsplash.com/photo-1608976328267-e673d3ec06ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80" className="avatar avatar-sm rounded-circle me-2"></img>
+                                        <img alt="..." src="https://images.unsplash.com/photo-1608976328267-e673d3ec06ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80" className="avatar avatar-sm rounded-circle me-2" />
                                         <a className="text-heading font-semibold" href="#">
                                             Thomas Nguyen
                                         </a>
@@ -466,7 +471,7 @@ function Test() {
                                         Apr 10, 2023
                                     </td>
                                     <td>
-                                        <img alt="..." src="https://preview.webpixels.io/web/img/other/logos/logo-5.png" className="avatar avatar-xs rounded-circle me-2"></img>
+                                        <img alt="..." src="https://preview.webpixels.io/web/img/other/logos/logo-5.png" className="avatar avatar-xs rounded-circle me-2" />
                                         <a className="text-heading font-semibold" href="#">
                                             Webpixels
                                         </a>
@@ -481,14 +486,14 @@ function Test() {
                                     </td>
                                     <td className="text-end">
                                         <a href="#" className="btn btn-sm btn-neutral">View</a>
-                                        <button type="button" onclick="showSweetAlert()" className="btn btn-sm btn-square btn-neutral text-danger-hover">
+                                        <button type="button" onClick="showSweetAlert()" className="btn btn-sm btn-square btn-neutral text-danger-hover">
                                             <i className="bi bi-trash"></i>
                                         </button>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <img alt="..." src="https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80" className="avatar avatar-sm rounded-circle me-2"></img>
+                                        <img alt="..." src="https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80" className="avatar avatar-sm rounded-circle me-2" />
                                         <a className="text-heading font-semibold" href="#">
                                             Jason Martinez
                                         </a>
@@ -497,7 +502,7 @@ function Test() {
                                         Feb 15, 2023
                                     </td>
                                     <td>
-                                        <img alt="..." src="https://bytewebster.com/img/logo.png" className="avatar avatar-xs rounded-circle me-2"></img>
+                                        <img alt="..." src="https://bytewebster.com/img/logo.png" className="avatar avatar-xs rounded-circle me-2" />
                                         <a className="text-heading font-semibold" href="https://www.bytewebster.com/">
                                             Bytewebster
                                         </a>
@@ -512,14 +517,14 @@ function Test() {
                                     </td>
                                     <td className="text-end">
                                         <a href="#" className="btn btn-sm btn-neutral">View</a>
-                                        <button type="button" onclick="showSweetAlert()" className="btn btn-sm btn-square btn-neutral text-danger-hover">
+                                        <button type="button" onClick="showSweetAlert()" className="btn btn-sm btn-square btn-neutral text-danger-hover">
                                             <i className="bi bi-trash"></i>
                                         </button>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <img alt="..." src="https://images.unsplash.com/photo-1610271340738-726e199f0258?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80" className="avatar avatar-sm rounded-circle me-2"></img>
+                                        <img alt="..." src="https://images.unsplash.com/photo-1610271340738-726e199f0258?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80" className="avatar avatar-sm rounded-circle me-2" />
                                         <a className="text-heading font-semibold" href="#">
                                             Ashley Williams
                                         </a>
@@ -544,7 +549,7 @@ function Test() {
                                     </td>
                                     <td className="text-end">
                                         <a href="#" className="btn btn-sm btn-neutral">View</a>
-                                        <button type="button" onclick="showSweetAlert()" className="btn btn-sm btn-square btn-neutral text-danger-hover">
+                                        <button type="button" onClick="showSweetAlert()" className="btn btn-sm btn-square btn-neutral text-danger-hover">
                                             <i className="bi bi-trash"></i>
                                         </button>
                                     </td>
@@ -575,7 +580,7 @@ function Test() {
                                     </td>
                                     <td className="text-end">
                                         <a href="#" className="btn btn-sm btn-neutral">View</a>
-                                        <button type="button" onclick="showSweetAlert()" className="btn btn-sm btn-square btn-neutral text-danger-hover">
+                                        <button type="button" onClick="showSweetAlert()" className="btn btn-sm btn-square btn-neutral text-danger-hover">
                                             <i className="bi bi-trash"></i>
                                         </button>
                                     </td>
@@ -606,7 +611,7 @@ function Test() {
                                     </td>
                                     <td className="text-end">
                                         <a href="#" className="btn btn-sm btn-neutral">View</a>
-                                        <button type="button" onclick="showSweetAlert()" className="btn btn-sm btn-square btn-neutral text-danger-hover">
+                                        <button type="button" onClick="showSweetAlert()" className="btn btn-sm btn-square btn-neutral text-danger-hover">
                                             <i className="bi bi-trash"></i>
                                         </button>
                                     </td>
@@ -637,7 +642,7 @@ function Test() {
                                     </td>
                                     <td className="text-end">
                                         <a href="#" className="btn btn-sm btn-neutral">View</a>
-                                        <button type="button" onclick="showSweetAlert()" className="btn btn-sm btn-square btn-neutral text-danger-hover">
+                                        <button type="button" onClick="showSweetAlert()" className="btn btn-sm btn-square btn-neutral text-danger-hover">
                                             <i className="bi bi-trash"></i>
                                         </button>
                                     </td>
